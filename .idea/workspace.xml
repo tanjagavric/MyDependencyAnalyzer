@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e477c5-f24d-4111-be56-77565ef157ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyDependencyAnalyzer.java" afterDir="false" />
+    <list default="true" id="69e477c5-f24d-4111-be56-77565ef157ce" name="Changes" comment="Finished test task">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyDependencyAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyDependencyAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +108,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tanjagavric"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tanjagavric/MyDependencyAnalyzer.git",
+    "accountId": "27473f96-545d-48b8-8de5-69728915a24e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -129,6 +131,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyDependencyAnalyzer.executor": "Coverage",
+    "Gradle.Build MyDependencyAnalyzer.executor": "Run",
     "Gradle.MyDependencyAnalyzer [:MyDependencyAnalyzer.main()].executor": "Run",
     "Gradle.MyDependencyAnalyzer [build].executor": "Run",
     "Gradle.MyDependencyAnalyzer [jar].executor": "Run",
@@ -197,9 +201,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDependencyAnalyzer" />
         <item itemvalue="Gradle.MyDependencyAnalyzer [jar]" />
         <item itemvalue="Gradle.MyDependencyAnalyzer [build]" />
-        <item itemvalue="Application.MyDependencyAnalyzer" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +216,33 @@
       <option name="presentableId" value="Default" />
       <updated>1730384842248</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished test task">
+      <option name="closed" value="true" />
+      <created>1730473703100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730473703100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished test task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished test task" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyDependencyAnalyzer$MyDependencyAnalyzer.ic" NAME="MyDependencyAnalyzer Coverage Results" MODIFIED="1730475097175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

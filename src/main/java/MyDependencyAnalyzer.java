@@ -49,7 +49,6 @@ public class MyDependencyAnalyzer {
         for (String jarPath : jarPaths) {
             File file = new File("build/libs/" + jarPath);
             try (JarFile jarFile = new JarFile(file)) {
-                //System.out.println("Does this jar file exist? " + file.exists());
                 Enumeration<JarEntry> entries = jarFile.entries();
                 while (entries.hasMoreElements()) {
                     JarEntry entry = entries.nextElement();
@@ -81,7 +80,7 @@ public class MyDependencyAnalyzer {
         for (ClassInformation ci : classes) {
             String referredClassName = ci.getName();
             if (!referredClassName.startsWith("java")) {
-                System.out.println(referredClassName);
+                //System.out.println(referredClassName);
                 necessaryClasses.add(referredClassName);
                 loadNecessaryClasses(referredClassName, necessaryClasses, processedClasses);
             }
